@@ -10,24 +10,40 @@ h1 {
   text-align: center;
 }
 
-#brushes h2 {
+h2 {
   font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
   color: white;
-  background-color: mediumspringgreen;
 }
 
-#brushes figure {
-  margin-left: 0;
+p,
+span {
+  font-size: 20px;
 }
 
-#brushes figcaption {
-  font-weight: bold;
-}
-
-#brushes .statePrice {
+.statePrice {
   font-family: Helvetica;
   font-weight: bold;
   color: blue;
+}
+
+figure {
+  margin-left: 0;
+}
+
+figcaption {
+  font-weight: bold;
+}
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+#frames h2 {
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  background-color: skyblue;
 }
